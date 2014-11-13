@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+			<meta charset="utf-8" />
+	<title>Fields - Documentation - Craft</title>
+	<link rel="stylesheet" href="assets/css/buildwithcraft.css?20140929">
+	<link rel="search" href="/opensearch.xml" title="buildwithcraft.com" type="application/opensearchdescription+xml">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript">
+		document.cookie = 'hires='+(window.devicePixelRatio>1?'1':'0')+'; path=/';
+	</script>
+			<script type="text/javascript" src="//use.typekit.net/mhp5zog.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement('picture');
+	</script>
+	<script src="assets/lib/picturefill.min.js" async></script>
+
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-39036834-1', 'auto');
+			ga('send', 'pageview');
+					</script>
+	</head>
+
+<body class="tk-proxima-nova docs">
+	
+			
+	<header id="site-header">
+		<div class="container">
+			<nav class="grid12">
+				<h1><a href="/">Craft</a></h1>
+
+				<form id="search" method="get" action="http://buildwithcraft.com/search" accept-charset="UTF-8">
+					<input type="text" class="text" placeholder="Search" name="q">
+					<input type="submit" class="btn">
+				</form>
+
+									<a class="download btn">Download</a>
+				
+				
+				
+									<ul>
+																											<li><a href="http://buildwithcraft.com/features" class=" ">Features</a></li>
+																											<li><a href="http://buildwithcraft.com/pricing" class=" ">Pricing</a></li>
+																											<li><a href="http://buildwithcraft.com/docs/introduction" class="sel ">Documentation</a></li>
+																											<li><a href="http://buildwithcraft.com/community" class=" ">Community</a></li>
+																											<li><a href="http://buildwithcraft.com/help" class=" ">Get Help</a></li>
+											</ul>
+				
+
+				<div class="menubtn">Nav</div>
+				<div class="menu" id="sitenavmenu">
+										<ul>
+																											<li><a href="http://buildwithcraft.com/features" class=" ">Features</a></li>
+																											<li><a href="http://buildwithcraft.com/pricing" class=" ">Pricing</a></li>
+																											<li><a href="http://buildwithcraft.com/docs/introduction" class="sel ">Documentation</a></li>
+																											<li><a href="http://buildwithcraft.com/community" class=" ">Community</a></li>
+																											<li><a href="http://buildwithcraft.com/help" class=" ">Get Help</a></li>
+											</ul>
+				
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div id="main">
+			<div class="container grid sidenav">
+		<div class="col3">
+			<nav id="sidenav">
+							<h4>Documentation</h4>
+			
+	
+					
+									<h5>Getting Started</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="introduction.html">Introduction</a>
+	
+					
+		
+					</li>
+							
+									<li>
+													<a href="requirements.html">Installing and Updating</a>
+			
+					
+					<ul>
+								
+									<li>
+								<a href="requirements.html">Requirements</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="installing.html">Installing</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="updating.html">Updating</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="folder-structure.html">Craft’s Folder Structure</a>
+	
+					
+		
+					</li>
+							
+									<li>
+													<a href="config-settings.html">Configuration</a>
+			
+					
+					<ul>
+								
+									<li>
+								<a href="config-settings.html">General Config Settings</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="multi-environment-configs.html">Multi-Environment Configs</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="php-constants.html">PHP Constants</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Core Concepts</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="users.html">Users</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="sections-and-entries.html">Sections and Entries</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="globals.html">Globals</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="assets.html">Assets</a>
+	
+					
+					<ul>
+								
+		
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="categories.html">Categories</a>
+	
+					
+		
+							
+									<li>
+								<a href="tags.html">Tags</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="fields.html" class="sel active">Fields</a>
+	
+					
+					<ul>
+								
+									<li>
+								<a href="assets-fields.html">Assets Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categories-fields.html">Categories Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="checkboxes-fields.html">Checkboxes Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="color-fields.html">Color Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="date-time-fields.html">Date/Time Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="dropdown-fields.html">Dropdown Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entries-fields.html">Entries Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="lightswitch-fields.html">Lightswitch Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="matrix-fields.html">Matrix Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="multi-select-fields.html">Multi-select Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="number-fields.html">Number Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="plain-text-fields.html">Plain Text Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="position-select-fields.html">Position Select Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="radio-buttons-fields.html">Radio Buttons Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="rich-text-fields.html">Rich Text Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="table-fields.html">Table Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tags-fields.html">Tags Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="users-fields.html">Users Fields</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="relations.html">Relations</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="routing.html">Routing</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="searching.html">Searching</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Templating</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="templating-overview.html">Templating Overview</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="twig-primer.html">Twig Primer</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="templating">Full Templating Reference<span class="external.html"></span></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Guides</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="localization-guide.html">Setting Up a Localized Site</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Advanced</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="reference-tags.html">Reference Tags</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="http://buildwithcraft.com/docs/plugins">Plugin Development<span class="external.html"></span></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="http://buildwithcraft.com/classreference">Full Class Reference<span class="external"></span></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+			
+				</nav>
+		</div>
+		<div class="col9">
+			<div id="sidenav-menubtn">
+				<div class="menubtn">
+											Nav
+									</div>
+				<div class="menu" id="sidenav-menu" data-align="center">
+								<h4>Documentation</h4>
+			
+	
+					
+									<h5>Getting Started</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="introduction.html">Introduction</a>
+	
+					
+		
+					</li>
+							
+									<li>
+													<a href="requirements.html">Installing and Updating</a>
+			
+					
+					<ul>
+								
+									<li>
+								<a href="requirements.html">Requirements</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="installing.html">Installing</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="updating.html">Updating</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="folder-structure.html">Craft’s Folder Structure</a>
+	
+					
+		
+					</li>
+							
+									<li>
+													<a href="config-settings.html">Configuration</a>
+			
+					
+					<ul>
+								
+									<li>
+								<a href="config-settings.html">General Config Settings</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="multi-environment-configs.html">Multi-Environment Configs</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="php-constants.html">PHP Constants</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Core Concepts</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="users.html">Users</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="sections-and-entries.html">Sections and Entries</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="globals.html">Globals</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="assets.html">Assets</a>
+	
+					
+					<ul>
+								
+		
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="categories.html">Categories</a>
+	
+					
+		
+							
+									<li>
+								<a href="tags.html">Tags</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="fields.html" class="sel active">Fields</a>
+	
+					
+					<ul>
+								
+									<li>
+								<a href="assets-fields.html">Assets Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categories-fields.html">Categories Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="checkboxes-fields.html">Checkboxes Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="color-fields.html">Color Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="date-time-fields.html">Date/Time Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="dropdown-fields.html">Dropdown Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entries-fields.html">Entries Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="lightswitch-fields.html">Lightswitch Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="matrix-fields.html">Matrix Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="multi-select-fields.html">Multi-select Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="number-fields.html">Number Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="plain-text-fields.html">Plain Text Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="position-select-fields.html">Position Select Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="radio-buttons-fields.html">Radio Buttons Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="rich-text-fields.html">Rich Text Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="table-fields.html">Table Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tags-fields.html">Tags Fields</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="users-fields.html">Users Fields</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+					</li>
+							
+									<li>
+								<a href="relations.html">Relations</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="routing.html">Routing</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="searching.html">Searching</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Templating</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="templating-overview.html">Templating Overview</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="twig-primer.html">Twig Primer</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="templating">Full Templating Reference<span class="external.html"></span></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Guides</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="localization-guide.html">Setting Up a Localized Site</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Advanced</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="reference-tags.html">Reference Tags</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="http://buildwithcraft.com/docs/plugins">Plugin Development<span class="external.html"></span></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="http://buildwithcraft.com/classreference">Full Class Reference<span class="external"></span></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+			
+	
+				</div>
+			</div>
+
+			<div id="content">
+										<header class="main-header">
+				<h1>Fields</h1>
+				
+
+			</header>
+		
+																																														
+																																																																											
+																																																			
+																																																																											
+																																																			
+																																																																											
+																																																			
+																																																			
+																								
+					<p>All of the content on your site will get entered into&nbsp;fields.</p>
+<p>Fields are defined globally from Settings → Fields. They are organized into “field groups”, but field groups have very little relevance anywhere else in the&nbsp;system.</p>
+<p>All fields share a few common&nbsp;settings:</p>
+<ul>
+<li>The field group it belongs&nbsp;to</li>
+<li>Its&nbsp;name</li>
+<li>Its template-facing&nbsp;handle</li>
+<li>Instruction&nbsp;text</li>
+</ul>
+<div class="image"><picture><!--[if IE 9]><video style="display: none;"><![endif]--><source media="(min-width: 960px)" srcset="http://buildwithcraft.com/assets/images/docs/_676xAUTO_crop_center-center/field-settings.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-settings.2x.jpg 2x"><source media="(min-width: 768px)" srcset="http://buildwithcraft.com/assets/images/docs/_546xAUTO_crop_center-center/field-settings.2x.jpg, http://buildwithcraft.com/assets/images/docs/_1092xAUTO_crop_center-center/field-settings.2x.jpg 2x"><source media="(min-width: 321px)" srcset="http://buildwithcraft.com/assets/images/docs/_676xAUTO_crop_center-center/field-settings.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-settings.2x.jpg 2x"><source media="(max-width: 320px)" srcset="http://buildwithcraft.com/assets/images/docs/_290xAUTO_crop_center-center/field-settings.2x.jpg, http://buildwithcraft.com/assets/images/docs/_580xAUTO_crop_center-center/field-settings.2x.jpg 2x"><!--[if IE 9]></video><![endif]--><img srcset="http://buildwithcraft.com/assets/images/docs/_676xAUTO_crop_center-center/field-settings.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-settings.2x.jpg 2x" width="676" height="390" alt="field-settings.2x"></picture></div>
+<h2 id=translatable-fields>Translatable Fields&nbsp;<a class="anchor" href="#translatable-fields" title="Direct link to Translatable Fields">#</a></h2>
+<p>If you’re running Craft Pro and you have more than one site locale, you will also have the option to mark the field as&nbsp;translatable.</p>
+<div class="image"><picture><!--[if IE 9]><video style="display: none;"><![endif]--><source media="(min-width: 960px)" srcset="http://buildwithcraft.com/assets/images/docs/_191xAUTO_crop_center-center/field-translatable.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-translatable.2x.jpg 2x"><source media="(min-width: 768px)" srcset="http://buildwithcraft.com/assets/images/docs/_191xAUTO_crop_center-center/field-translatable.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-translatable.2x.jpg 2x"><source media="(min-width: 321px)" srcset="http://buildwithcraft.com/assets/images/docs/_191xAUTO_crop_center-center/field-translatable.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-translatable.2x.jpg 2x"><source media="(max-width: 320px)" srcset="http://buildwithcraft.com/assets/images/docs/_191xAUTO_crop_center-center/field-translatable.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-translatable.2x.jpg 2x"><!--[if IE 9]></video><![endif]--><img srcset="http://buildwithcraft.com/assets/images/docs/_191xAUTO_crop_center-center/field-translatable.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-translatable.2x.jpg 2x" width="191" height="41" alt="field-translatable.2x"></picture></div>
+<p>If that setting is checked, the field’s values will be stored on a per-locale basis. Otherwise, the values will always be copied across all&nbsp;locales.</p>
+<h2 id=field-types>Field Types&nbsp;<a class="anchor" href="#field-types" title="Direct link to Field Types">#</a></h2>
+<p>The final setting that all fields have is the “Field Type” setting. This determines what type of field it is – what its input UI is going to look like, what type of data it can store, and how you’ll be able to interact with that data from your&nbsp;templates.</p>
+<div class="image"><picture><!--[if IE 9]><video style="display: none;"><![endif]--><source media="(min-width: 960px)" srcset="http://buildwithcraft.com/assets/images/docs/_158xAUTO_crop_center-center/field-type.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-type.2x.jpg 2x"><source media="(min-width: 768px)" srcset="http://buildwithcraft.com/assets/images/docs/_158xAUTO_crop_center-center/field-type.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-type.2x.jpg 2x"><source media="(min-width: 321px)" srcset="http://buildwithcraft.com/assets/images/docs/_158xAUTO_crop_center-center/field-type.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-type.2x.jpg 2x"><source media="(max-width: 320px)" srcset="http://buildwithcraft.com/assets/images/docs/_158xAUTO_crop_center-center/field-type.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-type.2x.jpg 2x"><!--[if IE 9]></video><![endif]--><img srcset="http://buildwithcraft.com/assets/images/docs/_158xAUTO_crop_center-center/field-type.2x.jpg, http://buildwithcraft.com/assets/images/docs/field-type.2x.jpg 2x" width="158" height="93" alt="field-type.2x"></picture></div>
+<p>Craft comes with 18 built-in field&nbsp;types:</p>
+<ul>
+<li><a href="assets-fields.html">Assets</a></li>
+<li><a href="categories-fields.html">Categories</a></li>
+<li><a href="checkboxes-fields.html">Checkboxes</a></li>
+<li><a href="color-fields.html">Color</a></li>
+<li><a href="date-time-fields.html">Date/Time</a></li>
+<li><a href="dropdown-fields.html">Dropdown</a></li>
+<li><a href="entries-fields.html">Entries</a></li>
+<li><a href="lightswitch-fields.html">Lightswitch</a></li>
+<li><a href="matrix-fields.html">Matrix</a></li>
+<li><a href="multi-select-fields.html">Multi-select</a></li>
+<li><a href="number-fields.html">Number</a></li>
+<li><a href="plain-text-fields.html">Plain&nbsp;Text</a></li>
+<li><a href="position-select-fields.html">Position&nbsp;Select</a></li>
+<li><a href="radio-buttons-fields.html">Radio&nbsp;Buttons</a></li>
+<li><a href="rich-text-fields.html">Rich&nbsp;Text</a></li>
+<li><a href="table-fields.html">Table</a></li>
+<li><a href="tags-fields.html">Tags</a></li>
+<li><a href="users-fields.html">Users</a></li>
+</ul>
+<h2 id=field-layouts>Field Layouts&nbsp;<a class="anchor" href="#field-layouts" title="Direct link to Field Layouts">#</a></h2>
+<p>Once you’ve created your fields, you can get it to show up in your edit forms by adding them to a “field&nbsp;layouts”.</p>
+<p>Everything in Craft that has content associated with it will provide a field layout for selecting&nbsp;fields:</p>
+<ul>
+<li><a href="sections-and-entries.html">Entries</a> use the field layout defined by their entry type in Settings → Sections → Edit Entry Types → [Entry Type name] → Field&nbsp;Layout.</li>
+<li><a href="globals.html">Global sets</a> each get their own field layout, defined in Settings → Globals → [Global Set name] → Field&nbsp;Layout.</li>
+<li><a href="assets.html">Assets</a> use the field layout defined by their asset source in Settings → Assets → [asset source name] → Field&nbsp;Layout.</li>
+<li><a href="categories.html">Categories</a> use the field layout defined by their Category Group in Settings → Categories → [Category Group name] → Field&nbsp;Layout.</li>
+<li><a href="tags.html">Tags</a> use the field layout defined by their Tag Group in Settings → Tags → [Tag Group name] → Field&nbsp;Layout.</li>
+<li><a href="users.html">Users</a> all share a single field layout defined in Settings → Users →&nbsp;Fields.</li>
+</ul>
+<p>When editing a field layout, you will find a “Content” tab at the top, and a list of all of your site’s fields, grouped into their field groups, at the bottom. Selecting a field is as simple as dragging it from the bottom area to the top, positioning it wherever you want alongside the other selected fields. You can also drag selected fields around to change their&nbsp;order.</p>
+<p>Once a field is selected, a gear icon will appear beside it. Clicking on it will reveal a context menu with two&nbsp;options:</p>
+<ul>
+<li>Make&nbsp;required</li>
+<li>Remove</li>
+</ul>
+<p>Clicking “Make required” will add an asterisk (‘*’) beside the field’s name, indicating that it’s now required. Subsequent gear icon clicks will reveal a new “Make not required” option which does as you’d&nbsp;expect.</p>
+<p>Field layouts for entry types have another feature: they let you define the actual content tabs that contain the fields. You can create as many content tabs as you want, and use them to organize similar fields together. Each content tab will get its own gear icon allowing you to rename or delete&nbsp;it.</p>
+									
+					<footer>
+				<nav class="rellinks">
+															
+											<div class="prev">			<a href="tags.html">Tags</a>
+	</div>
+					
+											<div class="next">			<a href="assets-fields.html">Assets Fields</a>
+	</div>
+									</nav>
+			</footer>
+						</div>
+		</div>
+	</div>
+	</div>
+
+	
+	<footer class="site-footer">
+		<div class="container grid">
+			<div id="footer-links" class="col6 grid">
+				<div class="col2">
+					<h4>About Craft</h4>
+					<ul>
+						<li><a href="http://buildwithcraft.com/features">Features</a></li>
+						<li><a href="http://buildwithcraft.com/pricing">Pricing</a></li>
+						<li><a href="http://buildwithcraft.com/showcase">Showcase</a></li>
+						<li><a href="http://buildwithcraft.com/updates">Updates</a></li>
+						<li><a href="http://buildwithcraft.com/resources">Brand Resources</a></li>
+						<li><a href="http://buildwithcraft.com/license">License Agreement</a></li>
+					</ul>
+				</div>
+
+				<div class="col2">
+					<h4>Learning Craft</h4>
+					<ul>
+						<li><a href="http://buildwithcraft.com/docs">Documentation</a></li>
+						<li><a href="http://craftcms.stackexchange.com/">Craft Q&amp;A on Stack Exchange</a></li>
+												<li><a href="http://github.com/pixelandtonic/ontherocks" target="_blank">On The Rocks demo site</a></li>
+						<li><a href="http://mijingo.com/products/screencasts/craft-cms-tutorial/" target="_blank">Video series by Mijingo</a></li>
+						<li><a href="http://twig.sensiolabs.org/doc/templates.html" target="_blank">Twig Documentation</a></li>
+					</ul>
+				</div>
+
+				<div class="col2">
+					<h4>Community</h4>
+					<ul>
+						<li><a href="http://twitter.com/craftcms" target="_blank">Twitter</a></li>
+						<li><a href="http://plus.google.com/communities/106505340287442511226" target="_blank">Google+</a></li>
+						<li><a href="http://chat.buildwithcraft.com" target="_blank">Craft Chat</a></li>
+						<li><a href="http://craftcookbook.net/" target="_blank">Craft Cookbook</a></li>
+						<li><a href="http://straightupcraft.com/" target="_blank">Straight Up Craft</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer-subscribe" class="col6">
+				<h4>Subscribe to the Newsletter</h4>
+				<form id="subscribe" method="post" action="">
+					<input type="hidden" name="action" value="campaignMonitor/subscribe">
+					<input type="hidden" name="listId" value="583b11822c17b5a2a0b4f5363c978cf9">
+					<input class="text" type="text" name="email" placeholder="Your email address" value="">
+					<input class="btn tk-proxima-nova" type="submit" value="Submit">
+					<div class="spinner" style="display: none;" title="Loading…"></div>
+					<div class="success" style="display: none;" title="Success!"></div>
+				</form>
+			</div>
+		</div>
+	</footer>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div id="footer-logos">
+				<a id="pt" href="http://pixelandtonic.com" target="_blank" title="Craft is a Pixel &amp; Tonic concoction."></a>
+				<a id="arcustech" href="http://arcustech.com" target="_blank" title="This site is hosted by our friends at ArcusTech."></a>
+			</div>
+
+			<p id="copyright">© 2014 Pixel & Tonic, Inc. All rights reserved.</p>
+		</div>
+	</footer>
+		
+
+	<script type="text/javascript" src="assets/lib/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript">
+		window.craftDownloadUrl = "http\x3A\x2F\x2Fdownload.buildwithcraft.com\x2Fcraft\x2F2.2\x2F2.2.2601\x2FCraft\x2D2.2.2601.zip";
+	</script>
+	<script type="text/javascript" src="assets/lib/garnish-0.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/buildwithcraft.js?20140929"></script>
+	<script type="text/javascript" src="assets/lib/prism.js"></script>
+
+	
+			
+					<script type='text/javascript'>
+				(function (d, t) {
+					var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+					bh.type = 'text/javascript';
+					bh.src = '//www.bugherd.com/sidebarv2.js?apikey=7gpoe4fiut0zajowrhx15w';
+					s.parentNode.insertBefore(bh, s);
+				})(document, 'script');
+			</script>
+			</body>
+</html>

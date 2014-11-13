@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+			<meta charset="utf-8" />
+	<title>Functions - Templating Reference - Craft</title>
+	<link rel="stylesheet" href="../assets/css/buildwithcraft.css?20140929">
+	<link rel="search" href="/opensearch.xml" title="buildwithcraft.com" type="application/opensearchdescription+xml">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript">
+		document.cookie = 'hires='+(window.devicePixelRatio>1?'1':'0')+'; path=/';
+	</script>
+			<script type="text/javascript" src="//use.typekit.net/mhp5zog.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement('picture');
+	</script>
+	<script src="../assets/lib/picturefill.min.js" async></script>
+
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-39036834-1', 'auto');
+			ga('send', 'pageview');
+					</script>
+	</head>
+
+<body class="tk-proxima-nova docs">
+	
+			
+	<header id="site-header">
+		<div class="container">
+			<nav class="grid12">
+				<h1><a href="/">Craft</a></h1>
+
+				<form id="search" method="get" action="http://buildwithcraft.com/search" accept-charset="UTF-8">
+					<input type="text" class="text" placeholder="Search" name="q">
+					<input type="submit" class="btn">
+				</form>
+
+									<a class="download btn">Download</a>
+				
+				
+				
+									<ul>
+																											<li><a href="http://buildwithcraft.com/features" class=" ">Features</a></li>
+																											<li><a href="http://buildwithcraft.com/pricing" class=" ">Pricing</a></li>
+																											<li><a href="http://buildwithcraft.com/docs/introduction" class="sel ">Documentation</a></li>
+																											<li><a href="http://buildwithcraft.com/community" class=" ">Community</a></li>
+																											<li><a href="http://buildwithcraft.com/help" class=" ">Get Help</a></li>
+											</ul>
+				
+
+				<div class="menubtn">Nav</div>
+				<div class="menu" id="sitenavmenu">
+										<ul>
+																											<li><a href="http://buildwithcraft.com/features" class=" ">Features</a></li>
+																											<li><a href="http://buildwithcraft.com/pricing" class=" ">Pricing</a></li>
+																											<li><a href="http://buildwithcraft.com/docs/introduction" class="sel ">Documentation</a></li>
+																											<li><a href="http://buildwithcraft.com/community" class=" ">Community</a></li>
+																											<li><a href="http://buildwithcraft.com/help" class=" ">Get Help</a></li>
+											</ul>
+				
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div id="main">
+			<div class="container grid sidenav">
+		<div class="col3">
+			<nav id="sidenav">
+							<h4>Templating Reference</h4>
+			
+	
+					
+									<h5>General</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="global-variables.html">Global Variables</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="templating/functions.html" class="sel active">Functions</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="filters.html">Filters</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tags.html">Tags</a>
+	
+					
+					<ul>
+								
+		
+		
+					</li>
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+						</ul>
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Getting Elements</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="craft.assets.html"><code>craft.assets</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.categories.html"><code>craft.categories</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.entries.html"><code>craft.entries</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.tags.html"><code>craft.tags</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.users.html"><code>craft.users</code></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Variables</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="assetfilemodel.html">AssetFileModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="assetfoldermodel.html">AssetFolderModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="../assetsourcemodel.html">AssetSourceModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categorymodel.html">CategoryModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categorygroupmodel.html">CategoryGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="datetime.html">DateTime</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="elementcriteriamodel.html">ElementCriteriaModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entrymodel.html">EntryModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entrytypemodel.html">EntryTypeModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="globalsetmodel.html">GlobalSetModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="matrixblockmodel.html">MatrixBlockModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="sectionmodel.html">SectionModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tagmodel.html">TagModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="taggroupmodel.html">TagGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="usergroupmodel.html">UserGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="usermodel.html">UserModel</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>More</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="craft.config.html"><code>craft.config</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.feeds.html"><code>craft.feeds</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.fields.html"><code>craft.fields</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.globals.html"><code>craft.globals</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.request.html"><code>craft.request</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.sections.html"><code>craft.sections</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.session.html"><code>craft.session</code></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Examples</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="integrating-disqus.html">Integrating Disqus</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="rss-feed.html">RSS Feed</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="atom-feed.html">Atom Feed</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entry-form.html">Entry Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="search-form.html">Search Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="login-form.html">Login Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="user-profile-form.html">User Profile Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="user-registration-form.html">User Registration Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="forgot-password-form.html">Forgot Password Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="set-password-form.html">Set Password Form</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+			
+				</nav>
+		</div>
+		<div class="col9">
+			<div id="sidenav-menubtn">
+				<div class="menubtn">
+											Nav
+									</div>
+				<div class="menu" id="sidenav-menu" data-align="center">
+								<h4>Templating Reference</h4>
+			
+	
+					
+									<h5>General</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="global-variables.html">Global Variables</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="templating/functions.html" class="sel active">Functions</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="filters.html">Filters</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tags.html">Tags</a>
+	
+					
+					<ul>
+								
+		
+		
+					</li>
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+							
+		
+		
+						</ul>
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Getting Elements</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="craft.assets.html"><code>craft.assets</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.categories.html"><code>craft.categories</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.entries.html"><code>craft.entries</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.tags.html"><code>craft.tags</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.users.html"><code>craft.users</code></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Variables</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="assetfilemodel.html">AssetFileModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="assetfoldermodel.html">AssetFolderModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="../assetsourcemodel.html">AssetSourceModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categorymodel.html">CategoryModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="categorygroupmodel.html">CategoryGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="datetime.html">DateTime</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="elementcriteriamodel.html">ElementCriteriaModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entrymodel.html">EntryModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entrytypemodel.html">EntryTypeModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="globalsetmodel.html">GlobalSetModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="matrixblockmodel.html">MatrixBlockModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="sectionmodel.html">SectionModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="tagmodel.html">TagModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="taggroupmodel.html">TagGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="usergroupmodel.html">UserGroupModel</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="usermodel.html">UserModel</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>More</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="craft.config.html"><code>craft.config</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.feeds.html"><code>craft.feeds</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.fields.html"><code>craft.fields</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.globals.html"><code>craft.globals</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.request.html"><code>craft.request</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.sections.html"><code>craft.sections</code></a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="craft.session.html"><code>craft.session</code></a>
+	
+					
+		
+					</li>
+						</ul>
+		
+							
+									<h5>Examples</h5>
+					
+					<ul>
+								
+									<li>
+								<a href="integrating-disqus.html">Integrating Disqus</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="rss-feed.html">RSS Feed</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="atom-feed.html">Atom Feed</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="entry-form.html">Entry Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="search-form.html">Search Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="login-form.html">Login Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="user-profile-form.html">User Profile Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="user-registration-form.html">User Registration Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="forgot-password-form.html">Forgot Password Form</a>
+	
+					
+		
+					</li>
+							
+									<li>
+								<a href="set-password-form.html">Set Password Form</a>
+	
+					
+		
+					</li>
+						</ul>
+		
+			
+	
+				</div>
+			</div>
+
+			<div id="content">
+										<header class="main-header">
+				<h1>Functions</h1>
+				
+
+			</header>
+		
+																																														
+																																																			
+																								
+					<p>On top of the template functions that <a href="http://twig.sensiolabs.org/doc/functions/index.html">Twig comes with</a>, Craft provides a few of its&nbsp;own:</p>
+<h2 id=ceil><code>ceil( num )</code>&nbsp;<a class="anchor" href="#ceil" title="Direct link to ceil">#</a></h2>
+<p>Rounds a number&nbsp;up.</p>
+<pre><code class="language-twig">{{ ceil(42.1) }} =&gt; 43</code></pre>
+<h2 id=floor><code>floor( num )</code>&nbsp;<a class="anchor" href="#floor" title="Direct link to floor">#</a></h2>
+<p>Rounds a number&nbsp;down.</p>
+<pre><code class="language-twig">{{ floor(42.9) }} =&gt; 42</code></pre>
+<h2 id=getCsrfInput><code>getCsrfInput()</code>&nbsp;<a class="anchor" href="#getCsrfInput" title="Direct link to getCsrfInput">#</a></h2>
+<p>Returns a hidden CSRF Token input. All sites that have <a href="http://buildwithcraft.com/help/csrf-protection">CSRF Protection</a> enabled must include this in each form that submits via&nbsp;POST.</p>
+<pre><code class="language-twig">&lt;form method="post"&gt;
+    {{ getCsrfInput() }}
+    &lt;!-- ... --&gt;
+&lt;/form&gt;</code></pre>
+<h2 id=getFootHtml><code>getFootHtml()</code>&nbsp;<a class="anchor" href="#getFootHtml" title="Direct link to getFootHtml">#</a></h2>
+<p>Outputs all of the HTML nodes that have been queued up by the <a href="tags#includeJsFile">includeJsFile</a> and <a href="templating/tags#includeJs.html.html">includeJs</a> tags. It should be placed right before your <code>&lt;/body&gt;</code>&nbsp;tag.</p>
+<pre><code class="language-twig">&lt;body&gt;
+    &lt;h1&gt;{{ page.name }}&lt;/h1&gt;
+    {{ page.body }}
+
+    {{ getFootHtml() }}
+&lt;/body&gt;</code></pre>
+<h2 id=getHeadHtml><code>getHeadHtml()</code>&nbsp;<a class="anchor" href="#getHeadHtml" title="Direct link to getHeadHtml">#</a></h2>
+<p>Outputs all of the HTML nodes that have been queued up by the <a href="tags#includeCssFile">includeCssFile</a>, <a href="templating/tags#includeCss">includeCss</a>, and <a href="http://buildwithcraft.com/docs/templating/tags#includeHiResCss.html.html">includeHiResCss</a>&nbsp;tags.</p>
+<pre><code class="language-twig">&lt;head&gt;
+    &lt;title&gt;{{ siteName }}&lt;/title&gt;
+    {{ getHeadHtml() }}
+&lt;/head&gt;</code></pre>
+<h2 id=max><code>max( num1, num2, ... )</code>&nbsp;<a class="anchor" href="#max" title="Direct link to max">#</a></h2>
+<p>Returns the largest number of a given&nbsp;set.</p>
+<pre><code class="language-twig">{{ max(1, 2, 3) }} =&gt; 3</code></pre>
+<h2 id=min><code>min( num1, num2, ... )</code>&nbsp;<a class="anchor" href="#min" title="Direct link to min">#</a></h2>
+<p>Returns the smallest number of a given&nbsp;set.</p>
+<pre><code class="language-twig">{{ min(1, 2, 3) }} =&gt; 1</code></pre>
+<h2 id=round><code>round( num )</code>&nbsp;<a class="anchor" href="#round" title="Direct link to round">#</a></h2>
+<p>Rounds off a number to the closest&nbsp;integer.</p>
+<pre><code class="language-twig">{{ round(42.1) }} =&gt; 42
+{{ round(42.9) }} =&gt; 43</code></pre>
+<h2 id=shuffle><code>shuffle( array )</code>&nbsp;<a class="anchor" href="#shuffle" title="Direct link to shuffle">#</a></h2>
+<p>Randomizes the order of the elements within an&nbsp;array.</p>
+<pre><code class="language-twig">{% set promos = shuffle(homepage.promos) %}
+
+{% for promo in promos %}
+    &lt;div class="promo {{ promo.slug }}"&gt;
+        &lt;h3&gt;{{ promo.title }}&lt;/h3&gt;
+        &lt;p&gt;{{ promo.description }}&lt;/p&gt;
+        &lt;a class="cta" href="{{ promo.ctaUrl }}"&gt;{{ promo.ctaLabel }}&lt;/a&gt;
+    &lt;/div&gt;
+{% endfor %}</code></pre>
+<h2 id=url><code>url( path, params, protocol, mustShowScriptName )</code>&nbsp;<a class="anchor" href="#url" title="Direct link to url">#</a></h2>
+<p>Returns a URL to a page on your&nbsp;site.</p>
+<pre><code class="language-twig">&lt;a href="{{ url('company/contact') }}"&gt;Contact Us&lt;/a&gt;</code></pre>
+<h3 id=arguments>Arguments&nbsp;<a class="anchor" href="#arguments" title="Direct link to Arguments">#</a></h3>
+<p>The <code>url()</code> function has the following&nbsp;arguments:</p>
+<ul>
+<li><strong><code>path</code></strong> – The path that the resulting URL should point to on your site. It will be appended to your <a href="http://buildwithcraft.com/help/site-url">Site&nbsp;URL</a>.</li>
+<li><strong><code>params</code></strong> – Any query string parameters that should be appended to the URL. This can be either a string (e.g. <code>'foo=1&amp;bar=2'</code>) or an object (e.g. <code>{foo:'1',&nbsp;bar:'2'}</code>).</li>
+<li><strong><code>protocol</code></strong> – Which protocol the URL should use (<code>'http'</code> or <code>'https'</code>). The default value depends on whether the current request is served over SSL or not. If not, then the protocol in your Site URL will be used; if so, then <code>https</code> will be&nbsp;used.</li>
+<li><strong><code>mustShowScriptName</code></strong> – If this is set to <code>true</code>, then the URL returned will include “index.php”, disregarding the <a href="config-settings#omitScriptNameInUrls.html">omitScriptNameInUrls</a> config setting. (This can be useful if the URL will be used by POST requests over Ajax, where the URL will not be shown in the browser’s address bar, and you want to avoid a possible collision with your site’s .htaccess file&nbsp;redirect.)</li>
+</ul>
+<div class="pane tip"><p>You can also use the <code>url()</code> function for appending query string parameters and/or enforcing a protocol on an&nbsp;absolute&nbsp;URL:</p>
+<pre><code class="language-twig">{{ url('http://example.com', 'foo=1', 'https') }}
+{# Outputs: "https://example.com?foo=1" #}</code></pre></div>
+									
+					<footer>
+				<nav class="rellinks">
+															
+											<div class="prev">			<a href="global-variables.html">Global Variables</a>
+	</div>
+					
+											<div class="next">			<a href="filters.html">Filters</a>
+	</div>
+									</nav>
+			</footer>
+						</div>
+		</div>
+	</div>
+	</div>
+
+	
+	<footer class="site-footer">
+		<div class="container grid">
+			<div id="footer-links" class="col6 grid">
+				<div class="col2">
+					<h4>About Craft</h4>
+					<ul>
+						<li><a href="http://buildwithcraft.com/features">Features</a></li>
+						<li><a href="http://buildwithcraft.com/pricing">Pricing</a></li>
+						<li><a href="http://buildwithcraft.com/showcase">Showcase</a></li>
+						<li><a href="http://buildwithcraft.com/updates">Updates</a></li>
+						<li><a href="http://buildwithcraft.com/resources">Brand Resources</a></li>
+						<li><a href="http://buildwithcraft.com/license">License Agreement</a></li>
+					</ul>
+				</div>
+
+				<div class="col2">
+					<h4>Learning Craft</h4>
+					<ul>
+						<li><a href="http://buildwithcraft.com/docs">Documentation</a></li>
+						<li><a href="http://craftcms.stackexchange.com/">Craft Q&amp;A on Stack Exchange</a></li>
+												<li><a href="http://github.com/pixelandtonic/ontherocks" target="_blank">On The Rocks demo site</a></li>
+						<li><a href="http://mijingo.com/products/screencasts/craft-cms-tutorial/" target="_blank">Video series by Mijingo</a></li>
+						<li><a href="http://twig.sensiolabs.org/doc/templates.html" target="_blank">Twig Documentation</a></li>
+					</ul>
+				</div>
+
+				<div class="col2">
+					<h4>Community</h4>
+					<ul>
+						<li><a href="http://twitter.com/craftcms" target="_blank">Twitter</a></li>
+						<li><a href="http://plus.google.com/communities/106505340287442511226" target="_blank">Google+</a></li>
+						<li><a href="http://chat.buildwithcraft.com" target="_blank">Craft Chat</a></li>
+						<li><a href="http://craftcookbook.net/" target="_blank">Craft Cookbook</a></li>
+						<li><a href="http://straightupcraft.com/" target="_blank">Straight Up Craft</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer-subscribe" class="col6">
+				<h4>Subscribe to the Newsletter</h4>
+				<form id="subscribe" method="post" action="">
+					<input type="hidden" name="action" value="campaignMonitor/subscribe">
+					<input type="hidden" name="listId" value="583b11822c17b5a2a0b4f5363c978cf9">
+					<input class="text" type="text" name="email" placeholder="Your email address" value="">
+					<input class="btn tk-proxima-nova" type="submit" value="Submit">
+					<div class="spinner" style="display: none;" title="Loading…"></div>
+					<div class="success" style="display: none;" title="Success!"></div>
+				</form>
+			</div>
+		</div>
+	</footer>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div id="footer-logos">
+				<a id="pt" href="http://pixelandtonic.com" target="_blank" title="Craft is a Pixel &amp; Tonic concoction."></a>
+				<a id="arcustech" href="http://arcustech.com" target="_blank" title="This site is hosted by our friends at ArcusTech."></a>
+			</div>
+
+			<p id="copyright">© 2014 Pixel & Tonic, Inc. All rights reserved.</p>
+		</div>
+	</footer>
+		
+
+	<script type="text/javascript" src="../assets/lib/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript">
+		window.craftDownloadUrl = "http\x3A\x2F\x2Fdownload.buildwithcraft.com\x2Fcraft\x2F2.2\x2F2.2.2601\x2FCraft\x2D2.2.2601.zip";
+	</script>
+	<script type="text/javascript" src="../assets/lib/garnish-0.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/buildwithcraft.js?20140929"></script>
+	<script type="text/javascript" src="../assets/lib/prism.js"></script>
+
+	
+			
+					<script type='text/javascript'>
+				(function (d, t) {
+					var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+					bh.type = 'text/javascript';
+					bh.src = '//www.bugherd.com/sidebarv2.js?apikey=7gpoe4fiut0zajowrhx15w';
+					s.parentNode.insertBefore(bh, s);
+				})(document, 'script');
+			</script>
+			</body>
+</html>
